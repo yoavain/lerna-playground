@@ -1,8 +1,6 @@
-const { runc } = require("@xyz/c");
+import { runc } from "@xyz/c";
 
-function runa() {
+export const runa = () => {
     console.log("a");
     runc();
 }
-
-module.exports = { runa }

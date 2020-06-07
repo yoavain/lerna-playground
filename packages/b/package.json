@@ -2,10 +2,11 @@
   "name": "@xyz/b",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.js",
   "scripts": {
     "run": "node src/index.js",
-    "build": "echo building @xyz/b"
+    "build": "echo building @xyz/b && tsc"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +14,9 @@
   "dependencies": {
     "@xyz/a": "1.0.0",
     "@xyz/c": "1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.11",
+    "typescript": "^3.9.5"
   }
 }
