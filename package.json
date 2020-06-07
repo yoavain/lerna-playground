@@ -1,0 +1,14 @@
+{
+  "name": "lerna-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "3.20.2"
+  }
+}
