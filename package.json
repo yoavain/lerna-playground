@@ -5,8 +5,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "postinstall": "npm run lerna:bootstrap",
+    "lerna:bootstrap": "lerna bootstrap --force-local",
     "lerna:build": "lerna run build",
-    "lerna:version": "lerna version patch --exact --yes"
+    "lerna:version": "lerna version patch --yes",
+    "lerna:version:force": "lerna version patch --yes --force-publish"
   },
   "keywords": [],
   "author": "",
