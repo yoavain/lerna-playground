@@ -1,7 +1,7 @@
 {
   "name": "@xyz/a",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.js",
@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@xyz/c": "1.0.0"
+    "@xyz/c": "1.0.1"
   },
   "devDependencies": {
     "@types/node": "^14.0.11",
