@@ -5,7 +5,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "lerna run build"
+    "lerna:build": "lerna run build",
+    "lerna:version": "lerna version patch --exact --yes"
   },
   "keywords": [],
   "author": "",
