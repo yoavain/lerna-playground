@@ -6,4 +6,6 @@ updates:
     interval: daily
     time: "20:00"
     timezone: Israel
+  ignore:
+    - dependency-name: "xyz/*"
   open-pull-requests-limit: 10
