@@ -10,12 +10,14 @@
     "lerna:list": "lerna list --toposort --all --graph",
     "lerna:build": "lerna run build",
     "lerna:version": "lerna version patch --yes",
-    "lerna:version:force": "lerna version patch --yes --force-publish"
+    "lerna:version:force": "lerna version patch --yes --force-publish",
+    "graph": "lerna-dependency-graph --graphvizCommand dot --outputFormat png --outputPath lerna-graph/graph.png"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "lerna": "3.22.1"
+    "lerna": "3.22.1",
+    "lerna-dependency-graph": "1.0.2"
   }
 }
