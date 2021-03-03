@@ -1,23 +1,25 @@
 {
-  "name": "@xyz/b",
-  "private": true,
-  "version": "1.0.2",
-  "description": "",
-  "main": "dist/index.js",
-  "types": "dist/index.d.js",
-  "scripts": {
-    "run": "node src/index.js",
-    "build": "echo building @xyz/b && tsc"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@xyz/a": "^1.0.2",
-    "@xyz/c": "^1.0.2"
-  },
-  "devDependencies": {
-    "@types/node": "^14.14.14",
-    "typescript": "^4.1.3"
-  }
+    "name": "@yoavain/b",
+    "publishConfig": {
+        "registry": "http://localhost:4873"
+    },
+    "version": "1.0.2",
+    "description": "",
+    "main": "dist/index.js",
+    "types": "dist/index.d.js",
+    "scripts": {
+        "run": "node src/index.js",
+        "build": "echo building @yoavain/b && tsc"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@yoavain/a": "^1.0.2",
+        "@yoavain/c": "^1.0.2"
+    },
+    "devDependencies": {
+        "@types/node": "^14.14.14",
+        "typescript": "^4.1.3"
+    }
 }
