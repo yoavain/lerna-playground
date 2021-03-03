@@ -11,6 +11,7 @@
     "lerna:list": "lerna list --toposort --all --graph",
     "lerna:build": "lerna run build",
     "lerna:version": "lerna version patch --yes",
+    "lerna:publish": "lerna publish from-package",
     "lerna:version:force": "lerna version patch --yes --force-publish",
     "graph": "lerna-dependency-graph --graphvizCommand dot --outputFormat png --outputPath lerna-graph/graph.png"
   },
