@@ -4,7 +4,7 @@
         "registry": "http://localhost:4873"
     },
     "version": "1.0.7",
-    "description": "",
+    "description": "module b",
     "main": "dist/index.js",
     "types": "dist/index.d.js",
     "scripts": {
@@ -15,7 +15,7 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "@yoavain/a": "^1.0.7",
+        "@yoavain/a": "1.0.7",
         "@yoavain/c": "1.0.6"
     },
     "devDependencies": {
