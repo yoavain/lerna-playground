@@ -12,7 +12,7 @@
         "build": "echo building @yoavain/b && tsc"
     },
     "keywords": [],
-    "author": "",
+    "author": "yoavain",
     "license": "ISC",
     "dependencies": {
         "@yoavain/a": "1.0.7",

@@ -11,7 +11,7 @@
         "build": "echo building @yoavain/a && tsc"
     },
     "keywords": [],
-    "author": "",
+    "author": "yoavain",
     "license": "ISC",
     "dependencies": {
         "@yoavain/c": "1.0.8"
