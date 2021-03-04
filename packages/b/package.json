@@ -15,8 +15,8 @@
     "author": "yoavain",
     "license": "ISC",
     "dependencies": {
-        "@yoavain/a": "1.0.7",
-        "@yoavain/c": "1.0.6"
+        "@yoavain/a": "1.0.10",
+        "@yoavain/c": "1.0.9"
     },
     "devDependencies": {
         "@types/node": "14.14.31",
