@@ -8,6 +8,9 @@
     "main": "dist/index.js",
     "types": "dist/index.d.js",
     "scripts": {
+        "eslint": "eslint src/ test/",
+        "eslint:fix": "npm run eslint -- --fix",
+        "type-check": "tsc --build tsconfig.all.json",
         "build": "echo building @yoavain/a && tsc"
     },
     "keywords": [],
@@ -18,8 +21,16 @@
     },
     "devDependencies": {
         "@types/node": "14.14.31",
+        "@typescript-eslint/eslint-plugin": "4.16.1",
+        "@typescript-eslint/parser": "4.16.1",
         "eslint": "7.21.0",
+        "eslint-import-resolver-typescript": "2.4.0",
+        "eslint-plugin-import": "2.22.1",
+        "eslint-plugin-jest": "24.1.5",
+        "eslint-plugin-node": "11.1.0",
+        "eslint-plugin-security": "1.4.0",
         "jest": "26.6.3",
+        "ts-node": "9.1.1",
         "typescript": "4.2.2"
     },
     "gitHead": "405401f33a3f5b116f45d618815b700a6f025a7b"
