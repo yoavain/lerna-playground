@@ -2,7 +2,7 @@
   "name": "lerna-playground",
   "private": true,
   "version": "1.0.0",
-  "description": "",
+  "description": "root",
   "main": "index.js",
   "scripts": {
     "postinstall": "npm run lerna:bootstrap",
@@ -16,7 +16,7 @@
     "graph": "lerna-dependency-graph --graphvizCommand dot --outputFormat png --outputPath lerna-graph/graph.png"
   },
   "keywords": [],
-  "author": "",
+  "author": "yoavain",
   "license": "ISC",
   "devDependencies": {
     "lerna": "4.0.0",
