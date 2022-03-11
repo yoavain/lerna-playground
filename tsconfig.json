@@ -1,20 +1,17 @@
 {
+  "extends": "@tsconfig/node14/tsconfig.json",
   "compilerOptions": {
-    "module": "commonjs",
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
+    "strict": false,
     "allowJs": true,
     "declaration": true,
     "moduleResolution": "node",
-    "target": "es6",
-    "outDir": "./dist",
-    "rootDir": "./src",
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noEmit": true
+    "noEmit": true,
+    "rootDir": "."
   },
   "include": [
-    "src/**/*"
+    "**/src/**/*", "**/test/**/*"
   ],
   "exclude": [
     "node_modules"

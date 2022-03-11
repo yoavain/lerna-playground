@@ -2,6 +2,5 @@
   "packages": [
     "packages/*"
   ],
-  "version": "independent",
-  "hoist": "{lerna,lerna-dependency-graph,typescript,@types/node,ts-node,jest,eslint,*eslint,eslint*}"
+  "version": "independent"
 }
