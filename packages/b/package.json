@@ -3,7 +3,7 @@
     "publishConfig": {
         "registry": "http://localhost:4873"
     },
-    "version": "1.0.12",
+    "version": "1.0.13",
     "description": "module b",
     "main": "dist/index.js",
     "types": "dist/index.d.js",
@@ -18,14 +18,14 @@
     "author": "yoavain",
     "license": "ISC",
     "dependencies": {
-        "@yoavain/a": "1.0.12",
-        "@yoavain/c": "1.0.11"
+        "@yoavain/a": "^1.0.13",
+        "@yoavain/c": "^1.0.12"
     },
     "devDependencies": {
+        "@tsconfig/node14": "1.0.3",
         "@types/node": "18.0.0",
         "@typescript-eslint/eslint-plugin": "5.29.0",
         "@typescript-eslint/parser": "5.29.0",
-        "@tsconfig/node14": "1.0.3",
         "eslint": "8.18.0",
         "eslint-import-resolver-typescript": "2.7.1",
         "eslint-plugin-import": "2.26.0",
