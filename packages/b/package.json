@@ -22,19 +22,19 @@
         "@yoavain/c": "1.0.11"
     },
     "devDependencies": {
-        "@types/node": "17.0.21",
-        "@typescript-eslint/eslint-plugin": "5.14.0",
-        "@typescript-eslint/parser": "5.14.0",
-        "@tsconfig/node14": "1.0.1",
-        "eslint": "8.10.0",
-        "eslint-import-resolver-typescript": "2.5.0",
-        "eslint-plugin-import": "2.25.4",
-        "eslint-plugin-jest": "26.1.1",
+        "@types/node": "18.0.0",
+        "@typescript-eslint/eslint-plugin": "5.29.0",
+        "@typescript-eslint/parser": "5.29.0",
+        "@tsconfig/node14": "1.0.3",
+        "eslint": "8.18.0",
+        "eslint-import-resolver-typescript": "2.7.1",
+        "eslint-plugin-import": "2.26.0",
+        "eslint-plugin-jest": "26.5.3",
         "eslint-plugin-node": "11.1.0",
-        "eslint-plugin-security": "1.4.0",
-        "jest": "27.5.1",
-        "ts-node": "10.7.0",
-        "typescript": "4.6.2"
+        "eslint-plugin-security": "1.5.0",
+        "jest": "28.1.1",
+        "ts-node": "10.8.1",
+        "typescript": "4.7.4"
     },
     "gitHead": "405401f33a3f5b116f45d618815b700a6f025a7b"
 }
