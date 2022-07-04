@@ -32,6 +32,6 @@
     "eslint-plugin-security": "1.5.0",
     "lerna": "5.1.6",
     "lerna-dependency-graph": "1.1.0",
-    "nx": "14.4.0"
+    "nx": "14.4.1"
   }
 }
