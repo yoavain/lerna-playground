@@ -5,7 +5,7 @@
   "description": "root",
   "main": "index.js",
   "scripts": {
-    "postinstall": "npm run bootstrap",
+    "postinstall": "npm run bootstrap && npx fix-lockfile-integrity",
     "bootstrap": "lerna bootstrap --force-local",
     "postbootstrap": "lerna run build --since main --stream",
     "list": "lerna list --toposort --all --graph",
@@ -30,8 +30,8 @@
     "eslint-plugin-jest": "26.7.0",
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-security": "1.5.0",
-    "lerna": "5.5.0",
+    "lerna": "5.5.1",
     "lerna-dependency-graph": "1.1.0",
-    "nx": "14.7.0"
+    "nx": "14.7.3"
   }
 }
