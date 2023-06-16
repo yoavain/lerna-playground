@@ -4,18 +4,15 @@
   "version": "1.0.0",
   "description": "root",
   "main": "index.js",
-  "workspace": true,
   "workspaces": [
-    "packages/a",
-    "packages/b",
-    "packages/c"
+    "packages/*"
   ],
   "engines": {
     "node": ">=18",
-    "npm": ">=9"
+    "pnpm": ">=8"
   },
   "scripts": {
-    "postinstall": "lerna run build --since main --stream && npx fix-lockfile-integrity",
+    "postinstall": "lerna run build --since main --stream",
     "list": "lerna list --toposort --all --graph",
     "eslint": "lerna run eslint --stream",
     "eslint:fix": "lerna run eslint:fix --stream",

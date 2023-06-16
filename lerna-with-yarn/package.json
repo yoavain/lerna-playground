@@ -12,6 +12,11 @@
       "**"
     ]
   },
+  "engines": {
+    "node": ">=18",
+    "yarn": ">=1"
+  },
+
   "scripts": {
     "postinstall": "lerna run build --since main --stream",
     "list": "lerna list --toposort --all --graph",
