@@ -11,8 +11,7 @@
     "packages/c"
   ],
   "scripts": {
-    "postinstall": "npx fix-lockfile-integrity",
-    "postbootstrap": "lerna run build --since main --stream",
+    "postinstall": "lerna run build --since main --stream && npx fix-lockfile-integrity",
     "list": "lerna list --toposort --all --graph",
     "eslint": "lerna run eslint --stream",
     "eslint:fix": "lerna run eslint:fix --stream",
