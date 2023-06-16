@@ -1,9 +1,0 @@
-{
-    "includePaths": ["./", "./packages/a", "./packages/b", "./packages/c"],
-    "lockFileNames": ["package-lock.json"],
-    "prettier": {
-        "useTabs": true,
-        "endOfLine": "cr"
-    }
-}
-

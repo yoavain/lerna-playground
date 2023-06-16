@@ -1,0 +1,9 @@
+{
+    "includePaths": ["./"],
+    "lockFileNames": ["package-lock.json"],
+    "prettier": {
+        "useTabs": true,
+        "endOfLine": "cr"
+    }
+}
+

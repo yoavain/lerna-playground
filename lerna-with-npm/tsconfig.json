@@ -1,0 +1,19 @@
+{
+  "extends": "@tsconfig/node18",
+  "compilerOptions": {
+    "strict": false,
+    "allowJs": true,
+    "declaration": true,
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noEmit": true,
+    "rootDir": "."
+  },
+  "include": [
+    "**/src/**/*", "**/test/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
