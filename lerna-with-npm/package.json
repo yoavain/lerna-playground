@@ -4,9 +4,14 @@
   "version": "1.0.0",
   "description": "root",
   "main": "index.js",
+  "workspace": true,
+  "workspaces": [
+    "packages/a",
+    "packages/b",
+    "packages/c"
+  ],
   "scripts": {
-    "postinstall": "npm run bootstrap && npx fix-lockfile-integrity",
-    "bootstrap": "lerna bootstrap --force-local",
+    "postinstall": "npx fix-lockfile-integrity",
     "postbootstrap": "lerna run build --since main --stream",
     "list": "lerna list --toposort --all --graph",
     "eslint": "lerna run eslint --stream",
@@ -16,21 +21,24 @@
     "version": "lerna version patch --exact --yes",
     "publish": "lerna publish from-package --yes",
     "version:force": "lerna version patch --yes --force-publish",
-    "graph": "lerna-dependency-graph --graphvizCommand dot --outputFormat png --outputPath lerna-graph/graph.png"
+    "graph": "lerna-dependency-graph --graphvizCommand dot --outputFormat png --outputPath lerna-graph/graph.png",
+    "update:root": "ncu -u -t minor -x @yoavain/*",
+    "update:packages": "lerna exec \"ncu -u -t minor -x @yoavain/*\" --stream",
+    "update:all": "npm run update:root && npm run update:packages"
   },
   "keywords": [],
   "author": "yoavain",
   "license": "ISC",
   "devDependencies": {
-    "@tsconfig/node14": "1.0.3",
-    "@typescript-eslint/eslint-plugin": "5.40.0",
-    "@typescript-eslint/parser": "5.40.0",
-    "eslint-import-resolver-typescript": "3.5.1",
-    "eslint-plugin-import": "2.26.0",
-    "eslint-plugin-jest": "27.1.1",
+    "@tsconfig/node18": "2.0.1",
+    "@typescript-eslint/eslint-plugin": "5.59.11",
+    "@typescript-eslint/parser": "5.59.11",
+    "eslint-import-resolver-typescript": "3.5.5",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-jest": "27.2.1",
     "eslint-plugin-node": "11.1.0",
-    "eslint-plugin-security": "1.5.0",
-    "lerna": "6.6.2",
+    "eslint-plugin-security": "1.7.1",
+    "lerna": "7.0.2",
     "lerna-dependency-graph": "1.1.0",
     "nx": "16.3.2"
   }

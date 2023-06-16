@@ -1,5 +1,5 @@
 {
-    "includePaths": ["./", "./packages/a", "./packages/b", "./packages/c"],
+    "includePaths": ["./"],
     "lockFileNames": ["package-lock.json"],
     "prettier": {
         "useTabs": true,
